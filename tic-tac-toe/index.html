@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tic Tac Toe</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+    <div class="main-container">
+        <h2 class="heading">Tic Tac Toe</h2>
+        <div class="board">
+            <div class="row">
+                <div id="00" onclick="clickedCell(this); this.onclick=null;" class="col"></div>
+                <div id="10" onclick="clickedCell(this); this.onclick=null;" class="col"></div>
+                <div id="20" onclick="clickedCell(this); this.onclick=null;" class="col"></div>
+            </div>
+            <div class="row">
+                <div id="01" onclick="clickedCell(this); this.onclick=null;" class="col"></div>
+                <div id="11" onclick="clickedCell(this); this.onclick=null;" class="col"></div>
+                <div id="21" onclick="clickedCell(this); this.onclick=null;" class="col"></div>
+            </div>
+            <div class="row">
+                <div id="02" onclick="clickedCell(this); this.onclick=null;" class="col"></div>
+                <div id="12" onclick="clickedCell(this); this.onclick=null;" class="col"></div>
+                <div id="22" onclick="clickedCell(this); this.onclick=null;" class="col"></div>
+            </div>
+        </div>
+    </div>
+</body>
+<script src="./script.js"></script>
+</html>
